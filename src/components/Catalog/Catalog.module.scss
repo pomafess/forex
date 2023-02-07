@@ -1,0 +1,21 @@
+@import '../../style.scss';
+
+.catalog {
+    --auto-grid-min-size: 20rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1rem;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.new {
+    border-bottom: grey solid;
+    border-top: grey solid;
+}
+
+.medium {
+    width: 100px;
+    height: 60px;
+    background: $cardColor;
+}

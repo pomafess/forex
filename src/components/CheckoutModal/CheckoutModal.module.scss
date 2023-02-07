@@ -1,0 +1,29 @@
+@import '../../style.scss';
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.medium {
+    width: 100px;
+    height: 60px;
+    background: $cardColor;
+    margin-top: 20px;
+}
+
+.text {
+    color: $mainColor;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: $cardColor;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}

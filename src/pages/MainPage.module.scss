@@ -1,0 +1,16 @@
+@import '../style.scss';
+
+.title {
+    color: $titleColor;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center
+}
+
+.wrapper {
+    max-width: 65rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}

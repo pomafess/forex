@@ -1,0 +1,23 @@
+@import '../../style.scss';
+
+.footer {
+    background-color: $mainColor;
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.flBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.address {
+    color: $secTextColor;
+}
+
+.text {
+    color: $secTextColor;
+    text-align: end;
+}
